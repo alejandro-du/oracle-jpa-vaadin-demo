@@ -1,0 +1,9 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+    <data-source>
+        <name>DemoDB</name>
+        <class-name>oracle.jdbc.driver.OracleDriver</class-name>
+        <url>jdbc:oracle:thin:@localhost:1521:xe</url>
+        <user>demo</user>
+        <password>password</password>
+    </data-source>
+</web-app>

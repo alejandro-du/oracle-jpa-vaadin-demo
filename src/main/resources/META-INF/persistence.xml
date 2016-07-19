@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
+    <persistence-unit name="demodb">
+        <jta-data-source>DemoDB</jta-data-source>
+        <class>com.example.Employee</class>
+    </persistence-unit>
+</persistence>

@@ -29,7 +29,7 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
+        <dependency> <!-- Needs to be manually downloaded and installed with mvn install:install-file -->
             <groupId>com.oracle.jdbc</groupId>
             <artifactId>ojdbc7</artifactId>
             <version>12.1.0.2</version>
@@ -117,10 +117,6 @@
                 <groupId>org.apache.openejb.maven</groupId>
                 <artifactId>tomee-maven-plugin</artifactId>
                 <version>1.7.1</version>
-                <configuration>
-                    <tomeeVersion>1.7.1</tomeeVersion>
-                    <tomeeClassifier>plus</tomeeClassifier>
-                </configuration>
             </plugin>
 
         </plugins>

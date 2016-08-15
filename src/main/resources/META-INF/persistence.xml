@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <persistence version="1.0" xmlns="http://java.sun.com/xml/ns/persistence">
-    <persistence-unit name="demodb">
-        <jta-data-source>DemoDB</jta-data-source>
+    <persistence-unit name="demoPU">
+        <jta-data-source>java:app/demo/DemoDS</jta-data-source>
+        <properties>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"></property>
+        </properties>
         <class>com.example.Employee</class>
     </persistence-unit>
 </persistence>

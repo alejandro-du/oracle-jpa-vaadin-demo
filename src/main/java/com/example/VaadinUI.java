@@ -10,6 +10,7 @@ import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
 import javax.inject.Inject;
+import javax.json.JsonObject;
 import java.util.List;
 
 @CDIUI("")

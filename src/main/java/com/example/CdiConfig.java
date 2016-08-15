@@ -8,7 +8,7 @@ import javax.persistence.PersistenceContext;
 public class CdiConfig {
 
     @Produces
-    @PersistenceContext(unitName = "demodb")
+    @PersistenceContext(unitName = "demoPU")
     @Dependent
     public EntityManager entityManager;
 

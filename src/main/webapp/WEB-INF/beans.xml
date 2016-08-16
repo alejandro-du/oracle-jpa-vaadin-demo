@@ -6,6 +6,6 @@
        version="1.1" bean-discovery-mode="all">
 
     <alternatives>
-        <class>org.apache.deltaspike.jpa.impl.transaction.BeanManagedUserTransactionStrategy</class>
+        <class>org.apache.deltaspike.jpa.impl.transaction.ContainerManagedTransactionStrategy</class>
     </alternatives>
 </beans>

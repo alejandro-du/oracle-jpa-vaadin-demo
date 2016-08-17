@@ -9,7 +9,6 @@ import com.vaadin.ui.TextField;
 import com.vaadin.ui.UI;
 import com.vaadin.ui.VerticalLayout;
 
-import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import java.util.List;
 
@@ -33,14 +32,6 @@ public class VaadinUI extends UI {
         setContent(layout);
         updateGrid("");
         grid.setColumns("name", "email");
-    }
-
-    @PostConstruct
-    public void addEmployee() {
-        Employee e = new Employee();
-        e.setName("test1");
-        e.setEmail("test1@test.com");
-        repository.saveAndFlush(e);
     }
 
     private void updateGrid(String filter) {

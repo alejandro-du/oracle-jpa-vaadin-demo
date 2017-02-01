@@ -1,6 +1,5 @@
 package com.example;
 
-import com.vaadin.annotations.Theme;
 import com.vaadin.cdi.CDIUI;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.Grid;
@@ -12,7 +11,6 @@ import javax.inject.Inject;
 import java.util.List;
 
 @CDIUI("")
-@Theme("valo")
 public class VaadinUI extends UI {
 
     @Inject
